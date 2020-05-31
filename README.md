@@ -2,7 +2,7 @@
 
 In this project a RL agent was trained to navigate and collect bananas in a large, square world, using the [Deep Q-Network](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) algorithm.
 
-Algorithm and implementation details are available in [Report.md](./Report.md)
+Algorithm and implementation details are available in [Report.md](./Report.md).
 
 This project is part of the [Udacity Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893).
 
@@ -22,7 +22,7 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 The task is episodic, and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
 
-## Setup
+## Getting Started
 
 1. Clone and setup the DRLND Repository
 
