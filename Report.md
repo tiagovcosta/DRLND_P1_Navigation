@@ -61,9 +61,18 @@ TAU = 1e-3                  # for soft update of target parameters
 LR = 5e-4                   # learning rate 
 UPDATE_PARAM_EVERY = 4      # how often to update the network weights
 UPDATE_TARGET_EVERY = 8     # how often to update the target network
+
+# Exploration EPS:
+start = 1.0
+end = 0.02
+decay = 0.95
 ```
 
 ## Plot of Rewards
+
+The **DQN Agent** was able to solve this problem in **353 episodes**.
+
+On the other hand, the Agent using **Double and Dueling DQN** took **383 episodes** to solve the problem.
 
 ![Reward plot][reward_plot]
 
